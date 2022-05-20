@@ -3,11 +3,16 @@ import '../style.css';
 
 const Meme = () => {
   return (
-    <div className="meme--content">
-      <input className="meme--input--left" type="text" name="" id="" />
-      <input className="meme--input--right" type="text" name="" id="" />
-    </div>
+    <main>
+      <form className="form">
+        <input className="form--input" type="text" placeholder="top text" name="" id="" />
+        <input className="form--input" type="text" placeholder="bottom text" name="" id="" />
+        <button className="form--btn">Get a new meme image 🖼</button>
+      </form>
+    </main>
   )
 }
+
+
 
 export default Meme;
