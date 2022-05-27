@@ -11,6 +11,12 @@ main {
   padding: 36px;
 }
 
+.header-bg {
+  background-color: #672280;
+}
+
+
+
 .header {
   display: flex;
   align-items: center;
