@@ -11,9 +11,6 @@ main {
   padding: 36px;
 }
 
-.header-bg {
-  background-color: #672280;
-}
 
 
 
@@ -58,14 +55,10 @@ main {
   color: white;
   cursor: pointer;
   font-size: 16px;
+
 }
 
-.meme-img {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
+/* 
 .meal--card {
   flex-basis: 225px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
@@ -75,4 +68,70 @@ main {
   padding: 13px;
   padding-bottom: 20px;
   background-color: white;
+} */
+
+.meme {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.meme--image {
+  margin-top: 20px;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text--bottom {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+  bottom: 0;
+}
+
+.meme--text--top {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+  bottom: 0;
+  top: 0;
 }
